@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -40,4 +42,94 @@
   width: 140px;
   height: 63px;
   object-fit: cover;
+}
+.routes {
+  display: flex;
+  align-items: center;
+}
+.routes a {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s;
+  margin: 0 20px;
+}
+.routes a:last-child {
+  border: 2px solid #338eb7;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.routes a:last-child:hover {
+  border: 2px solid #67b9df;
+  padding: 10px 15px;
+  background-color: aliceblue;
+  border-radius: 4px;
+  color: #ff8c8c;
+}
+.routes a:hover {
+  color: skyblue;
+  text-decoration: none;
+}
+
+/*styles from body class*/
+.body {
+  width: 80%;
+  margin: 0 auto;
+}
+.title {
+  margin: 50px 0px 0px 0px;
+}
+.title h1 {
+  font-size: 44px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+.title h1 span {
+  position: relative;
+  top: -20px;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+/*Modal wraps styles are here*/
+
+.modal-wrap {
+  margin-top: 5px;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-btn button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-right: 6px;
+  transition: all 0.1s;
+}
+.modal-btn button:focus {
+  border: none;
+  outline: none;
+}
+.modal-btn button:active {
+  transform: scale(0.98);
+}
+
+.input-wrap {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.897);
+  margin-right: 10px;
+}
+
+.search-btn {
+  font-size: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.63);
+  padding: 14px 15px;
+  height: 100%;
 }

@@ -114,21 +114,50 @@
     <div class="container-wrap">
       <div class="navbar">
         <div class="compony-logo">
-          <img src="../public/assets/icons/logo.svg" alt="" />
+          <a href="/">
+            <img src="../public/assets/icons/logo.svg" alt="" />
+          </a>
         </div>
         <div class="routes">
           <a href="/">Home</a>
           <a href="/">Contact</a>
           <a href="/">News</a>
+          <a href="/">Log in</a>
         </div>
-        <div class="menu"></div>
       </div>
       <div class="body">
         <div class="title">
-          <div class="search-modal">
-            <div class="modal-wrap"></div>
-            <div class="modal-info"></div>
+          <h1>
+            Where <br />
+            do you want to <br />
+            <span>explore</span>
+          </h1>
+        </div>
+        <div class="search-modal">
+          <div class="modal-btn">
+            <button id="full-btn" >Full trip</button>
+            <button id="one-btn">One way</button>
           </div>
+          <div class="modal-wrap">
+            <div class="input-wrap">
+              <h1 class="input-title">Where ?</h1>
+              <input type="text" placeholder="@ex Tashkent" />
+            </div>
+            <div class="input-wrap">
+              <h1 class="input-title">From</h1>
+              <input type="text" placeholder="@ex Bukhora" />
+            </div>
+            <div class="input-wrap">
+              <h1 class="input-title">Date</h1>
+              <input type="text" placeholder="@ex today" />
+            </div>
+            <div class="input-wrap " id="back-time">
+              <h1 class="input-title">Back to</h1>
+              <input type="text" placeholder="@ex next week " />
+            </div>
+            <div class="search-btn">&#x2192</div>
+          </div>
+          <div class="modal-info"></div>
         </div>
       </div>
     </div>
